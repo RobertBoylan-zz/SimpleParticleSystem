@@ -82,7 +82,6 @@ void Rotate() {
     if (keyCode == UP) {
       if (ySpeed <= 6) {
         ySpeed += 3;
-        println("hello");
       }
     }
     if (keyCode == DOWN) {
